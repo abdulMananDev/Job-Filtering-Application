@@ -1,0 +1,84 @@
+/**
+*
+* Testing
+*
+**/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media (min-width: 1921px) and (max-width: 4000px) {
+  html {
+    font-size: 75.64%;
+  }
+}
+@media (min-width: 901px) and (max-width: 1200px) {
+  html {
+    font-size: 61.5%;
+  }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  html {
+    font-size: 61.5%;
+  }
+}
+@media (min-width: 100px) and (max-width: 599px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  line-height: 1.7;
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  .container {
+    width: 100vw;
+  }
+}
+@media (min-width: 100px) and (max-width: 599px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  color: green;
+}
+.container_header {
+  position: relative;
+  width: 100%;
+  height: 15rem;
+  background: #5ba4a4;
+  background-image: url("../headerDesktop.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.list {
+  position: relative;
+  width: 80%;
+}
+.list--img {
+  width: 2rem;
+  height: 2rem;
+}
+.list_data {
+  position: relative;
+  width: 100%;
+  border-radius: 3px;
+}
